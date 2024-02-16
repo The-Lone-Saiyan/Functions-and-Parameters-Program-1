@@ -41,9 +41,7 @@ double AreaFormula(double Pi)
 
 
 int main()
-{
- 
-	DistanceFormula(X1, X2, Y1, Y2);
+{	
 
 	cout << "Welcome to the Distance, Radius, Circumference, and Area calculator.\n" << endl;
 	cout << "Please enter the value for X1: ";
