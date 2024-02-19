@@ -1,9 +1,9 @@
 #include <iostream>
 #include <cmath>
 
-//Calculator for finding Distance, Radius, Circumference, and Area
-//User only needs to input coordinates for X1, X2, Y1, and Y2
-//Output will be all four answers using the formulas behind the scenes
+//Calculator for finding Distance, Radius, Circumference, and Area.
+//User only needs to input coordinates for X1, X2, Y1, and Y2.
+//Output will be all four answers using the formulas behind the scenes by calling each needed function.
 
 using namespace std;
 
@@ -37,7 +37,7 @@ double calcArea(double Pi)
 {
 	Pi = 3.1416;
 
-	double Area = 2 * Pi * pow(calcRadius(X2, Y2), 2);
+	double Area = Pi * pow(calcRadius(X2, Y2), 2);
 
 	return Area;
 }
