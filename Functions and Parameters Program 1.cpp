@@ -1,6 +1,5 @@
 #include <iostream>
 #include <cmath>
-#include <iomanip>
 
 //Calculator for finding Distance, Radius, Circumference, and Area
 //User only needs to input coordinates for X1, X2, Y1, and Y2
