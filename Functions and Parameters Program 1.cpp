@@ -11,13 +11,14 @@ double calcDistance(double X1, double X2, double Y1, double Y2); //Pre-Condition
 
 double calcRadius(double X2, double Y2); //Pre-Condition: Uses X2 and Y2 coordinates as input where needed. Post-Condition: Shows radius of the two points.
 
-double calcCircumference(double Pi); //Pre-Condition: Calls the Radius formula for input into formula. Post-Condition: Shows circumference.
+double calcCircumference(double Pi, double X2, double Y2); //Pre-Condition: Calls the Radius formula for input into formula. Post-Condition: Shows circumference.
 
-double calcArea(double Pi); //Pre-Condition: Calls the Radius formula and input into the Area formula. Post-Condition: Shows Area.
+double calcArea(double Pi, double X2, double Y2); //Pre-Condition: Calls the Radius formula and input into the Area formula. Post-Condition: Shows Area.
 
 int main()
 {
 	double X1, X2, Y1, Y2, Pi;
+	Pi = 3.1416;
 
 	cout << "Welcome to the Distance, Radius, Circumference, and Area calculator.\n" << endl;
 	cout << "Please enter the value for X1: ";
@@ -36,9 +37,9 @@ int main()
 
 		cout << "\nRadius: " << calcRadius(X2, Y2) << endl;
 
-		cout << "\nCircumference: " << calcCircumference(Pi) << endl;
+		cout << "\nCircumference: " << calcCircumference(Pi, X2, Y2) << endl;
 
-		cout << "\nArea: " << calcArea(Pi) << endl;
+		cout << "\nArea: " << calcArea(Pi, X2, Y2) << endl;
 
 	return 0;
 }
