@@ -1,9 +1,9 @@
-#include <iostream>
-#include <cmath>
-
 //Calculator for finding Distance, Radius, Circumference, and Area.
 //User only needs to input coordinates for X1, X2, Y1, and Y2.
 //Output will be all four answers using the formulas behind the scenes by calling each needed function.
+
+#include <iostream>
+#include <cmath>
 
 using namespace std;
 
