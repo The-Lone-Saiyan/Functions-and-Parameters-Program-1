@@ -7,13 +7,25 @@
 
 using namespace std;
 
-double calcDistance(double X1, double X2, double Y1, double Y2); //Pre-Condition: Input coordinates from user. Post-Condition: The distance between two points.
+// Formula for calculating Distance
+// Pre-Condition: Input coordinates from user. 
+// Post-Condition: The distance between two points.
+double calcDistance(double X1, double X2, double Y1, double Y2);
 
-double calcRadius(double X2, double Y2); //Pre-Condition: Uses X2 and Y2 coordinates as input where needed. Post-Condition: Shows radius of the two points.
+// Formula for calculating Radius.
+// Pre-Condition: Uses X2 and Y2 coordinates as input where needed. 
+// Post-Condition: Shows radius of the two points.
+double calcRadius(double X2, double Y2);
 
-double calcCircumference(double Pi, double X2, double Y2); //Pre-Condition: Calls the Radius formula for input into formula. Post-Condition: Shows circumference.
+// Formula for calculating Circumference.
+// Pre-Condition: Calls the Radius formula for input into formula. 
+// Post-Condition: Shows circumference.
+double calcCircumference(double Pi, double X2, double Y2);
 
-double calcArea(double Pi, double X2, double Y2); //Pre-Condition: Calls the Radius formula and input into the Area formula. Post-Condition: Shows Area.
+// Formula for calculating Area.
+// Pre-Condition: Calls the Radius formula and input into the Area formula. 
+// Post-Condition: Shows Area.
+double calcArea(double Pi, double X2, double Y2);
 
 int main()
 {
